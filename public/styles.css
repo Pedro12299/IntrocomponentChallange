@@ -1,4 +1,4 @@
-@media (min-width: 1116px) {
+@media (min-width: 375px) {
   /* GLOBAL STYLES */
 
   body {
@@ -140,7 +140,7 @@
   }  
 }
 
-@media (max-width: 501px) {
+@media (max-width: 375px) {
   /* Global Styles */
 
   body {

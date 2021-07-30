@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/IntrocomponentChallange/static/js/main.01db5fe1.chunk.js",
+    "main.js.map": "/IntrocomponentChallange/static/js/main.01db5fe1.chunk.js.map",
+    "runtime-main.js": "/IntrocomponentChallange/static/js/runtime-main.b1c2d34e.js",
+    "runtime-main.js.map": "/IntrocomponentChallange/static/js/runtime-main.b1c2d34e.js.map",
+    "static/js/2.d595c099.chunk.js": "/IntrocomponentChallange/static/js/2.d595c099.chunk.js",
+    "static/js/2.d595c099.chunk.js.map": "/IntrocomponentChallange/static/js/2.d595c099.chunk.js.map",
+    "index.html": "/IntrocomponentChallange/index.html",
+    "static/js/2.d595c099.chunk.js.LICENSE.txt": "/IntrocomponentChallange/static/js/2.d595c099.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1c2d34e.js",
+    "static/js/2.d595c099.chunk.js",
+    "static/js/main.01db5fe1.chunk.js"
+  ]
+}

@@ -1,0 +1,290 @@
+@media (min-width: 1116px) {
+  /* GLOBAL STYLES */
+
+  body {
+    background-image: url("images/bgintrodesktop.png");
+    background-color: hsl(0, 100%, 74%);
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* TEXT (HEADER AND PARAGRAPH) */
+
+  .header {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .leftText {
+    color: white;
+    padding-top: 300px;
+  }
+
+  .paragraph {
+    margin-bottom: 0;
+  }
+
+   /* PURPLE BANNER */
+
+   .message {
+    width: 550px;
+    height: 65px;
+    position: absolute;
+    left: 320px;
+    margin-left: 650px;
+    margin-top: 100px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 7px;
+    padding-top: 23px;
+    box-shadow: 0px 10px hsl(0, 61%, 63%);
+  }
+
+  .bannerText{
+    text-align: center;
+    color: white;
+  }
+
+  /* FORM PART */
+
+  .mainForm {
+    background-color: white;
+    border-radius: 7px;
+  }
+  
+  .formPart {
+    width: 550px;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 200px;
+    height: 500px;
+  }
+
+  .thing {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 460px;
+    height: 60px;
+    text-indent: 30px;
+    border-radius: 7px;
+    border-color: lightgray;
+  }
+
+  .topThing {
+    margin-top: 30px;
+  }
+
+  .button {
+    width: 460px;
+    margin-left: 30px;
+    height: 50px;
+    background-color: hsl(154, 59%, 51%);
+    border: 0px;
+    border-radius: 7px;
+    color: white;
+  }
+
+  .formFootP {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .anchor {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+  }
+
+  /* ERROR STYLES */
+
+  .formPartError {
+    width: 550px;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 200px;
+    height: 600px;
+  }
+
+  .errorContainer {
+    height: 700px;
+  }
+  
+  .errorMessage {
+    color: hsl(0, 61%, 63%);
+    padding-left: 260px;
+  }
+
+  .emailWrong::placeholder {
+    color: hsl(0, 61%, 63%);
+  }
+  
+  /* FORM GROUP FOR ERROR ICON STYLE (AND TOP COMPARMENT) */
+  
+  .form-group {
+    position: relative;
+  }
+
+  span.glyphicon-remove.cross {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 95px;
+    left: 600px;
+  }
+
+  .top {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 125px;
+    left: 600px;
+  }  
+}
+
+@media (max-width: 501px) {
+  /* Global Styles */
+
+  body {
+    margin-left: 30px;
+    background-image: url("images/bg-intro-mobile.png");
+    background-color: hsl(0, 100%, 74%);
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* Text (Header and Paragraph) */
+
+  .header {
+    font-size: 30px;
+    font-weight: 600;
+    width: 340px;
+    text-align: center;
+  }
+
+  .leftText {
+    position: absolute;
+    color: white;
+    padding-top: 100px;
+  }
+
+  .paragraph {
+    width: 340px;
+    text-align: center;
+  }
+
+  /* Purple banner */
+
+  .message {
+    width: 340px;
+    height: 85px;
+    position: absolute;
+    top: 400px;
+    right: 90px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 23px;
+    box-shadow: 0px 10px hsl(0, 61%, 63%);
+  }
+
+  .bannerText {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 70px;
+    width: 200px;
+    text-align: center;
+    color: white;
+  }
+
+  /* Form Part */
+
+  .formPart {
+    position: absolute;
+    right: 90px;
+    top: 510px;
+    width: 340px;
+    background-color: white;
+    border-radius: 7px;
+    height: 500px;
+  }
+
+  .thing {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 60px;
+    text-indent: 30px;
+    border-radius: 7px;
+    border-color: lightgray;
+  }
+
+  .topThing {
+    margin-top: 30px;
+  }
+
+  .button {
+    width: 280px;
+    margin-left: 30px;
+    height: 50px;
+    background-color: hsl(154, 59%, 51%);
+    border: 0px;
+    border-radius: 7px;
+    color: white;
+  }
+
+  .formFootP {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+    text-align: center;
+    width: 240px;
+  }
+
+  .anchor {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+  }
+
+  /* ERROR STYLES */
+
+  .formPartError {
+    width: 550px;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 200px;
+    height: 600px;
+  }
+
+  .errorMessage {
+    color: hsl(0, 61%, 63%);
+    padding-left: 260px;
+  }
+
+  .errorContainer {
+    height: 700px;
+  }
+
+  .emailWrong::placeholder {
+    color: hsl(0, 61%, 63%);
+  }
+
+  /* FORM GROUP FOR ERROR ICON STYLE (AND TOP COMPARMENT) */
+
+  .form-group {
+    position: relative;
+  }
+
+  span.glyphicon-remove.cross {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 95px;
+    left: 600px;
+  }
+
+  .top {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 125px;
+    left: 600px;
+  }
+}

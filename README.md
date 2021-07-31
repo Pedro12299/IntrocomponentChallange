@@ -42,7 +42,7 @@ Mobile Size
 ### Links
 
 - Solution URL: https://github.com/Pedro12299/IntrocomponentChallange
-- Live Site URL: 
+- Live Site URL: https://sad-panini-09dd18.netlify.app/
 
 ## My process
 
